@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 70px auto;
+  max-width: 200px;
+  width: 100%;
+}
+
+body {
+  background-color: #96F29F;
+}
+
+form {
+  margin-top: 35px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Justice', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color:#5E25F8;
+}
+
+input,
+button {
+  font-family: 'Times Sans Serif', sans-serif;
+  font-size: 15px;
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #5E25F8;
+  color: aliceblue;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #601670;
+}
+
+.mensagem {
+  background-color: #601670;
+  padding: 16px;
+  color: aliceblue;
+  display: none;
+}
+
+
