@@ -9,7 +9,7 @@ mesada.addEventListener('submit',function(evento){
   evento.preventDefault();
   const idade = document.getElementById('suaidade');
   const valor = document.getElementById('seuvalor');
-  const validaçao = comparar(idade.value,valor.value);
+  const validaçao = comparar(idade.valueAsNumber,valor.valueAsNumber);
   const positivo_ou_negativo = document.querySelector('.mensagem');
   if(validaçao) {
     positivo_ou_negativo.innerHTML = 'Tudo certo!';
